@@ -1,0 +1,120 @@
+/*  color palette
+https://coolors.co/c2c7cb-101c4d-8c99a2-b7990d-2f2504
+#C2C7CB - silver sand
+#101C4D - royal blue dark
+#0A1233 - oxford blue
+#8C99A2 - cadet grey
+#B7990D - lemon curry
+#E5BE10 - saffron
+#2F2504 - olive drab 7
+*/
+
+html { 
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  } 
+  
+  /* Global Styles */
+  body{
+    color: #0A1233;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  
+  
+  img {
+    width: 300px;
+  }
+
+  a{
+    color: #E5BE10;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  
+  h1{
+    font-size: 100px;
+    line-height: 1;
+  }
+  h2{
+    margin: 0; /* eliminates extra space at top of each section */
+    font-size: 45px;
+  }
+  
+  h1, h2{
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin: 0;
+  
+  }
+  
+  h3{
+    margin-bottom:0;
+  }
+  
+  .content_wrapper{
+    max-width: 800px; 
+    width: 85%; /* applies when viewport < 800px*/
+    margin: 0 auto; /* centers content wrapper horizontally */
+    padding: 60px 0;  /* 60px prev value pushes content in on top and bottom to eliminate gaps between sections */
+  }
+  
+  /* About */
+  
+  header{
+    background: #101C4D;
+    color: #C2C7CB;
+  }
+  
+  .header-item{
+    overflow: hidden;
+  }
+  
+  header h1,
+  header h2{
+    color: #E5BE10;
+  }
+  
+  /* featured projects */
+  
+  .featured-projects{
+    background: #8c99a2;
+  }
+  
+  .projectcard-img{
+    margin-bottom: 10px;
+    height: 250px;
+    object-fit:cover;
+  }
+  
+  .project-card .btn{
+    color:#c2c7cb;
+    background:#101c4d;
+    text-decoration:none;
+    padding: 8px;
+    border-radius:4px;
+    /* required to place inside padding space */
+    display:inline-block; 
+  }
+  
+  .project-card .btn:hover{
+    background: rgba(16,28,77,80%);
+  }
+  
+  .project-card{
+    overflow: hidden;
+  }
+  
+  .project-card h3{
+    /* line up h3 with top of img floated to left */
+    margin-top:0;
+  }
+ 
+  
