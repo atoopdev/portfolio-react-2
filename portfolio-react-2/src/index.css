@@ -67,6 +67,11 @@ html {
   }
   
   /* About */
+
+  /* holds entire section */
+  .About{
+    
+  }
   
   header{
     background: #101C4D;
@@ -80,6 +85,10 @@ html {
   header h1,
   header h2{
     color: #E5BE10;
+  }
+
+  .header-img{
+  
   }
   
   /* featured projects */

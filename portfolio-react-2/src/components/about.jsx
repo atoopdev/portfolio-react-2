@@ -7,7 +7,7 @@ export default function About(){
             <h1>Amanda Toop</h1>
             <h2>Information Technology Specialist</h2>
             <div className="header-item">
-            <img src={AmandaImg} alt="Picture of Amanda"></img>
+            <img src={AmandaImg} className="header-img" alt="Picture of Amanda"></img>
         
             <p>I love creating products that use technology to solve problems. To me, every problem is a fresh adventure and I really enjoy that. For the majority of my working career this has resulted in roles that emphasize providing technology solutions, business analysis, and working closely with users. I find bringing bringing order to chaos exciting!</p>
             
