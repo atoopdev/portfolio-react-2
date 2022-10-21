@@ -9,11 +9,12 @@ import {Outlet} from "react-router-dom"
 export default function Root(){
     return(
         <body>
-            <Nav />
+             
         <main>
         <div className="content_wrapper">
             <p>I am in src/routes/root.jsx</p>
             <p>When completed, this will be the main landing page.</p>
+            {/* Outlet is where content renders */}
            <Outlet />
         </div>
         </main>
