@@ -5,7 +5,7 @@ import './index.css'
 import Root from "./routes/root"
 import ErrorPage from './routes/error-page'
 import Projects from "./routes/projects"
-import Main from "./routes/main"
+import Index from "./routes/index"
 
 // manages routing
 
@@ -17,13 +17,10 @@ const router = createBrowserRouter([
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
+      {index: true, element: <Index />},
       {
         path:"projects/",
         element: <Projects />,
-      },
-      {
-        path:"main/",
-        element:<Main />,
       },
     ]
   },
