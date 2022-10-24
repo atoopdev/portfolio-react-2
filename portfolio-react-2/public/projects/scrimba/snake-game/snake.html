@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="snake.css">
+
+    <title>Snake Game</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Snake Game</h1>
+    <button id="start">Start/Restart Game!</button>
+    <h2 id="message-el"></h2>
+    <h2>Score:
+        <span id="score">-</span>
+    </h2>
+    <div class="grid">
+        <!-- holds game contents -->
+    </div>
+</div>
+    <div class="container">
+        <h2>Rules:
+            <ul>
+                <li>Use keyboard arrows to direct snake</li>
+                <li>Eating red apples causes snake to grow and move faster</li>
+                <li>Hitting board boundaries ends game</li>
+            </ul>
+        </h2>
+    </div>
+    <script src="snake.js"></script>
+</body>
+</html>

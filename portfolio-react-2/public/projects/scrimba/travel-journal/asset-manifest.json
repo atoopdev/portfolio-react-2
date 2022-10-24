@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/projects/scrimba/travel-journal/static/css/main.b6c51888.css",
+    "main.js": "/projects/scrimba/travel-journal/static/js/main.41b21244.js",
+    "static/js/787.39019643.chunk.js": "/projects/scrimba/travel-journal/static/js/787.39019643.chunk.js",
+    "index.html": "/projects/scrimba/travel-journal/index.html",
+    "static/media/map-pin-solid.svg": "/projects/scrimba/travel-journal/static/media/map-pin-solid.ff3c45afb430c31292a096e7f8784122.svg",
+    "main.b6c51888.css.map": "/projects/scrimba/travel-journal/static/css/main.b6c51888.css.map",
+    "main.41b21244.js.map": "/projects/scrimba/travel-journal/static/js/main.41b21244.js.map",
+    "787.39019643.chunk.js.map": "/projects/scrimba/travel-journal/static/js/787.39019643.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6c51888.css",
+    "static/js/main.41b21244.js"
+  ]
+}

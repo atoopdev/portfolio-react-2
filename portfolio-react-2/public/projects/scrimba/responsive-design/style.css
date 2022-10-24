@@ -1,0 +1,381 @@
+/* remove margins on typography to keep margins consistent */
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+body {
+  font-size: 1.125rem;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  color: #707070;
+}
+
+header {
+  background-color: #f8f8f8;
+  padding: 2em 0;
+  text-align: center;
+}
+
+p {
+  margin: 1em 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 900px;
+}
+
+.container-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  color: #143774;
+}
+
+h2,
+h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: #143774;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  /* margin: 0.5em 0; */
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+/* logo subtitle */
+.subtitle {
+  color: #1792d2;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container-nav {
+  flex-direction: column;
+}
+
+header {
+  padding: 2em;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 1em 0;
+}
+
+.subtitle,
+nav {
+  font-size: 1rem;
+}
+
+.nav-list {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  list-style: none;
+  /* margin-left: 2em; */
+}
+
+.nav-links {
+  color: #707070;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.25em 0;
+}
+
+.nav-links:hover,
+.nav-links:focus {
+  color: #1792d2;
+}
+
+.current-page {
+  border-bottom: 1px solid #707070;
+}
+
+.current-page:hover {
+  color: #707070;
+}
+
+img {
+  max-width: 100%;
+  /* removes spacing at bottom */
+  display: block;
+}
+
+.container-flex {
+}
+
+.col {
+}
+
+.col-1 {
+  margin-top: 1em;
+}
+.col-2 {
+}
+
+.featured-post {
+  border-bottom: 1px solid #707070;
+  padding-bottom: 1em;
+}
+
+.recent-post {
+  display: flex;
+  flex-direction: column;
+
+  /* border-bottom: 1px solid #707070; */
+  padding-bottom: 2em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+/* swap display order so image and post info shown first */
+.recent-post-main {
+  order: 2;
+}
+
+.recent-post-secondary {
+  order: 1;
+}
+
+/* sidebar right */
+
+/* date and comment count */
+.post-info {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+  color: #707070;
+  margin: 2.5em 0;
+}
+
+.post-body {
+}
+
+.article-img {
+}
+
+.continue-reading {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: #1792d2;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  margin: 1em 0;
+  text-decoration: none;
+}
+
+.continue-reading:hover,
+.continue-reading:focus {
+  color: #143774;
+  text-decoration: underline;
+}
+
+.sidebar {
+  color: #143774;
+  border: 20px solid #ebebeb;
+  padding: 15px;
+  margin-bottom: 2em;
+}
+
+.sidebar-recent-post {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0;
+  border-bottom: 1px solid #707070;
+}
+
+/* remove bottom border on last div */
+.sidebar-recent-post:last-child {
+  border: 0;
+  margin: 0;
+}
+
+.sidebar-img {
+  order: 1;
+
+  width: 100%;
+  height: 50px;
+  /* crops image to fit space */
+  object-fit: cover;
+}
+
+.sidebar-title {
+  margin-bottom: 1em;
+}
+
+.sidebar-post-title {
+  margin-top: 1em;
+  font-size: 0.85rem;
+  order: 2;
+}
+
+p a {
+  color: #1792d2;
+}
+
+p a:hover,
+p a:focus {
+  color: #143774;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.all-caps {
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #143774;
+  color: #ebebeb;
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 3em 0;
+}
+
+/* about Me */
+
+.blog-post {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-title {
+  order: 2;
+  font-family: "Lora", serif;
+}
+
+.blog-img {
+  order: 1;
+  margin-bottom: 1em;
+}
+
+.blog-main {
+  order: 3;
+  margin-bottom: 1em;
+}
+
+.blue-accent {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  color: #1792d2;
+  font-size: 1rem;
+  margin: 1em 0;
+  text-decoration: none;
+}
+
+@media (min-width: 750px) {
+  .container-nav {
+    flex-direction: row;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav-item {
+    margin-left: 2em;
+  }
+
+  .container-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .col-2 {
+    width: 61%;
+  }
+
+  .col-1 {
+    width: 28%;
+    min-width: 250px;
+    margin-left: 1em;
+    margin-top: 0;
+  }
+
+  .featured-post {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article-img {
+    width: 100%;
+    height: 250px;
+    /* crops image to fit space */
+    object-fit: cover;
+    /* object-position: left; */
+    order: -2;
+  }
+
+  .post-info {
+    order: -1;
+  }
+
+  .recent-post {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .recent-post-main {
+    width: 65%;
+  }
+
+  .recent-post-secondary {
+    width: 32%;
+  }
+
+  footer {
+    padding: 3em 0;
+  }
+
+  /* about me */
+
+  .blog-img {
+    width: 100%;
+    height: 250px;
+    /* crops image to fit space */
+    object-fit: cover;
+    /* object-position: left; */
+    order: -2;
+  }
+}

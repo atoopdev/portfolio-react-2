@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/projects/scrimba/airbnb-experiences-clone/static/css/main.455286b7.css",
+    "main.js": "/projects/scrimba/airbnb-experiences-clone/static/js/main.93781da5.js",
+    "static/js/787.9fde691c.chunk.js": "/projects/scrimba/airbnb-experiences-clone/static/js/787.9fde691c.chunk.js",
+    "static/media/photo-grid.png": "/projects/scrimba/airbnb-experiences-clone/static/media/photo-grid.294d59b66b94e0e456cf.png",
+    "static/media/katie-zaferes.png": "/projects/scrimba/airbnb-experiences-clone/static/media/katie-zaferes.8c39a93af3d2de2b3c27.png",
+    "static/media/airbnb-logo.png": "/projects/scrimba/airbnb-experiences-clone/static/media/airbnb-logo.e4424517383d14a03a24.png",
+    "static/media/logo.svg": "/projects/scrimba/airbnb-experiences-clone/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/projects/scrimba/airbnb-experiences-clone/index.html",
+    "main.455286b7.css.map": "/projects/scrimba/airbnb-experiences-clone/static/css/main.455286b7.css.map",
+    "main.93781da5.js.map": "/projects/scrimba/airbnb-experiences-clone/static/js/main.93781da5.js.map",
+    "787.9fde691c.chunk.js.map": "/projects/scrimba/airbnb-experiences-clone/static/js/787.9fde691c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.455286b7.css",
+    "static/js/main.93781da5.js"
+  ]
+}

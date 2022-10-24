@@ -1,0 +1,229 @@
+/* Style Guide */
+/* ## Colors
+
+### Primary
+
+- Very dark blue (main background): hsl(233, 47%, 7%)
+- Dark desaturated blue (card background): hsl(244, 38%, 16%)
+- Soft violet (accent): hsl(277, 64%, 61%)
+
+### Neutral
+
+- White (main heading, stats): hsl(0, 0%, 100%)
+- Slightly transparent white (main paragraph): hsla(0, 0%, 100%, 0.75)
+- Slightly transparent white (stat headings): hsla(0, 0%, 100%, 0.6)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 700
+- sans-serif
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400 
+- sans-serif  
+
+*/
+
+html { 
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  } 
+
+
+/* Desktop: 1440px */
+
+body{
+    width: 100%;
+    min-width: 375px;
+    min-height: 100vh;
+    font-family: inter, sans-serif;
+    line-height: 1.5;
+    background-color: hsl(233, 47%, 7%);
+}
+
+h1{
+    font-weight: 700;
+    font-size: 2.15rem;
+    margin: 0;
+    color: white;
+    margin-bottom: 25px;
+    line-height: 1.3;
+    letter-spacing: .9px;
+    
+}
+.emphasis{
+    color: hsl(277, 64%, 61%);
+}
+
+p{
+    font-family: inter, sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: .9rem;
+    font-weight: 400;
+    margin-bottom: 70px;
+    padding-right: 55px;
+    line-height: 1.75;
+    letter-spacing: .25px;
+}
+
+
+/* flex container */
+.content-wrapper{
+    /* border: 2px solid black; */
+    width: 1109px;
+    height: 424px;
+    margin: 175px auto;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 6px;
+}
+
+/* flex item */
+.header-image{
+    height: 445px;
+    background-image: url('../images/image-header-desktop.jpg');
+
+    /* this was tricky for me to figure out. Found solution via a tip on slack channel that led me to - https://alligator.io/css/exploring-blend-modes/ which had the info I needed, but I couldn't figure it out. I then googled "background-blend-mode to see more examples where i then found https://css-tricks.com/almanac/properties/b/background-blend-mode/ and it was more clear that multiply would darken the picture */
+
+    background-color: hsl(277, 64%, 61%);
+    background-blend-mode:multiply;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+
+/* wraps all text - h1, p, and stats */
+.text-wrapper{
+    height: 445px;
+    background-color:hsl(244, 38%, 16%);
+    flex-basis: 570px;
+    /* margin-left: 2px; */
+    padding-top: 70px;
+    padding-bottom: 65px;
+    padding-left: 70px;
+    padding-right: 90px;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+/* wraps only the three stats at bottom */
+.stats-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right:60px;
+}
+
+/* each stat */
+
+.caps{
+    text-transform: uppercase;
+}
+.stats{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: lexend deca, sans-serif;
+    font-size: .75rem;
+    font-weight: 100;
+    /* margin:0; */
+}
+
+.stats-heading{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: inter, sans serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin:0;
+}
+
+.attribution { font-size: 11px; text-align: center; color: hsla(0, 0%, 100%, 0.75);}
+.attribution a { color: hsl(277, 64%, 61%); }
+
+/* mobile screen size target of 375px */
+/* I choose 1028px as my design breakpoint to switch to the mobile layout */
+
+@media screen and (max-width:1028px){
+    .content-wrapper{
+        /* border: 5px solid white; */
+        width: 330px;
+        height: 785px;
+        margin: 89px auto;
+        flex-direction:column;
+    }
+
+    h1{
+        font-size: 1.76rem;
+        padding: 0;
+        margin: 0;
+        line-height: 1.2;
+    }
+
+    p{
+        padding-top: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        margin: 0;
+        margin-bottom: 12px;
+        font-size: .9rem;
+        line-height: 1.8;
+        
+    }
+
+    .header-image{
+        /* border: 2px solid green; */
+        background-image: url('../images/image-header-mobile.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex: 0 0 242px;
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        
+    }
+
+    .text-wrapper{
+        /* border: 2px solid red; */
+        text-align: center;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        flex: 1 0 auto;
+        margin-left: 1px;
+    }
+
+    .text-wrapper p{
+        letter-spacing: 0px;
+    }
+    .stats-wrapper{
+        /* border: 2px solid yellow; */
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin:0;
+        flex: 1 0 250px;
+    }
+    .stats-item{
+        /* border: 1px solid red; */
+        margin-top: 15px;
+        margin-bottom: 8px;
+    }
+    .stats{
+        /* border: 1px solid purple; */
+        letter-spacing: 1px;
+    }
+}

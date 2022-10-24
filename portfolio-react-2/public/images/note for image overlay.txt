@@ -1,0 +1,3 @@
+apply a white overlay with opacity of 0.482
+via
+https://codepen.io/yaphi1/pen/oNbEqGV?editors=0010
