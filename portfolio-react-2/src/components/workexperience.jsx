@@ -32,11 +32,11 @@ export default function WorkExperience(){
             <h3>Information Technology Specialist</h3>
             <p>University of Washington</p>
             <p>2008-present.</p>
-            <img src="images/W-Logo_Purple_Hex.jpg">
+            <img src="images/W-Logo_Purple_Hex.jpg"></img>
             </div>
             <div class="job-summary">
             <p>Provide Tier 1 and Tier 2 technical support for 200 administrative staff, 6,000 students, and 100 instructors across 4 work sites - maintaining a high level of customer service, technical expertise, and quality communication with an average email annual ticket volume of 3,800 in addition to phone and walk up requests.</p>
-            <P>Areas of support include hardware/software/OS/network connectivity for approx 600 Windows 10 devices, network file access via on prem mapped drives and cloud-based file storage, O365 and Office 2016, account management/permissions via Active Directory Users and Computers, Canvas LMS administration and Zoom/Adobe Connect video support for online students.</P>
+            <p>Areas of support include hardware/software/OS/network connectivity for approx 600 Windows 10 devices, network file access via on prem mapped drives and cloud-based file storage, O365 and Office 2016, account management/permissions via Active Directory Users and Computers, Canvas LMS administration and Zoom/Adobe Connect video support for online students.</p>
             <p>Software administration - CRM and Service Desk (design, implementation, customization, and ongoing administration), user access management, business analysis (requirements gathering/research/planning/implementing new systems) as well as providing technical solutions and troubleshooting.</p>
             </div>
             </section>

@@ -1,6 +1,7 @@
 import React from "react"
 import About from "../components/about"
 import FeaturedProjects from "../components/featuredprojects"
+import WorkExperience from "../components/workexperience"
 
 // functions like main landing page
 
@@ -11,6 +12,7 @@ export default function Index(){
             <p>When completed, this will be the home page.</p>
             <About />
             <FeaturedProjects />
+            <WorkExperience />
         </div>
     )
 }
