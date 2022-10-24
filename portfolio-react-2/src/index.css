@@ -126,4 +126,20 @@ html {
     margin-top:0;
   }
  
-  
+  /* Work Experience */
+.workexperience{
+  background: #C2C7CB;
+  overflow: hidden;
+}
+
+.job-details img{
+   margin-top: 10px;
+}
+
+/* Education */
+.education {
+  background-color:#E5BE10;
+}
+
+.education p{
+   width: 60%;
