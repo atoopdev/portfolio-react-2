@@ -333,3 +333,106 @@ padding: 0;
   display:  inline-block;
   text-decoration: none;
 }
+
+/* Responsive styles */
+
+@media screen and (min-width:1682px){
+  /* add a background image */
+  /* used https://codepen.io/yaphi1/pen/oNbEqGV?editors=0010 to experiment with optimal opacity */
+  .workexperience{
+      background-image: 
+  linear-gradient(to bottom, rgba(255, 255, 255, .47), rgba(255, 255, 255, .9)), url('../images/leone-venter-VieM9BdZKFo-unsplash.jpg');
+      background-size: cover;
+      background-position: top right;
+      padding-bottom: 100px;
+  }
+
+  .work-experience-img{
+      display: none;
+  }
+}
+
+@media screen and (min-width:750px){
+
+  /* text centers header and footer */
+  header, footer {
+      text-align: center;
+  }
+
+  /* only floats image to left at larger screen size, otherwise stacks */
+  .header-item img{
+      float:left;
+      margin-right: 20px;
+  }
+
+  /* only floats image to left at larger screen size, otherwise stacks */
+  .project-item img{
+      float: left;
+      margin-right: 20px;
+  }
+
+  /* add a background image */
+  .workexperience{
+      background-image: 
+  linear-gradient(to bottom, rgba(255, 255, 255, .7), rgba(255, 255, 255, .96)), url('../images/leone-venter-VieM9BdZKFo-unsplash.jpg');
+      background-size: cover;
+      background-position: top right;
+      padding-bottom: 100px;
+  }
+
+  .work-experience-img{
+      display: none;
+  }
+
+   /* only floats image to left at larger screen size, otherwise stacks */
+   .workexperience img{
+      float: right;
+      margin-left: 20px;
+      margin-top: 20px;
+  }
+
+  /* work experience swiches to 2 col grid */
+
+  .job-details img{
+      margin-left: -3px;
+      margin-right: 3px;
+  }
+  .job-item{
+      display:grid;
+      grid-template-columns: 1fr 2fr;
+      column-gap: 20px;
+  }
+  .education {
+      background-image: url(../images/joanna-kosinska-unsplash.jpg);
+      background-size: cover;
+      background-position: top right;
+      padding-bottom: 100px;
+  }
+  .contact-list{
+      display: flex;
+      justify-content: center;
+  }
+
+}
+
+@media screen and (max-width:749px){
+  h1{
+      font-size: 75px;
+      line-height: 0.9;
+      margin-bottom: 20px;
+  }
+  h2{
+     line-height: 1; 
+     margin-bottom:15px;
+  }
+  .contact-list a{
+      padding: 5px;
+  }
+  .content_wrapper h1{
+      font-size: 70px;
+  }
+
+  .content_wrapper h2{
+      font-size: 40px;
+  }
+}
