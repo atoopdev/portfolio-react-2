@@ -93,9 +93,11 @@ html {
 .nav-wrapper{
   /* margin: 1rem auto;  */
   background: #101C4D;
+  padding-top:10px;
 }
 .hamburger{
   background: #101C4D;
+  margin-left:10px;
 }
 /* is block level element and will stretch length of page */
 nav{
@@ -147,21 +149,9 @@ nav ul{
 
 .name-logo{
     display: none;
-  /* color: #E5BE10;
-  font-family: 'Caveat', cursive;
-  font-weight: 600;
-  font-size: 2.5rem;
-  padding: 0.5rem 1rem;
-  /* flex-basis: 25vw; */
-  /* border: 2px solid white; */
-  /* use to shove left */
-  /* margin-right: auto; */
-  /* text-align: left; */ */
 }
 nav li{
-  /* border: 2px dotted green; */
-  /* gets links of edges of page   */
-  /* padding: 0.5rem 1rem; */
+  
 }
 
 /* clickable area only as big as words by default */

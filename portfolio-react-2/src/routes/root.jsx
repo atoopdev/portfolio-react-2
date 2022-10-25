@@ -19,8 +19,8 @@ export default function Root(){
         If site is not idle, a loading class is added to main part of app
         Must use css to make use of this feature */}
         <div id="detail" className={navigation.state === "loading" ? "loading" : ""}>
-            <p>I am in src/routes/root.jsx</p>
-            <p>When completed, this will be the container page.</p>
+            {/* <p>I am in src/routes/root.jsx</p>
+            <p>When completed, this will be the container page.</p> */}
             
             {/* Outlet is where content renders */}
            <Outlet />
