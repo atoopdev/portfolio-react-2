@@ -2,6 +2,7 @@ import React from "react"
 import About from "../components/about"
 import FeaturedProjects from "../components/featuredprojects"
 import WorkExperience from "../components/workexperience"
+import Education from "../components/education"
 
 // functions like main landing page
 
@@ -13,6 +14,7 @@ export default function Index(){
             <About />
             <FeaturedProjects />
             <WorkExperience />
+            <Education />
         </div>
     )
 }

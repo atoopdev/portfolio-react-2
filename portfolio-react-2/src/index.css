@@ -143,7 +143,7 @@ html {
   /* used https://codepen.io/yaphi1/pen/oNbEqGV?editors=0010 to experiment with optimal opacity */
   .workexperience{
       background-image: 
-  linear-gradient(to bottom, rgba(255, 255, 255, .47), rgba(255, 255, 255, .9)), url('../images/leone-venter-VieM9BdZKFo-unsplash.jpg');
+      linear-gradient(to bottom, rgba(255, 255, 255, .47), rgba(255, 255, 255, .9)), url('../images/leone-venter-VieM9BdZKFo-unsplash.jpg');
       background-size: cover;
       background-position: top right;
       padding-bottom: 100px;
