@@ -16,7 +16,7 @@ export default function FeaturedProjects(){
 
 
     return (
-        <div className="featured-projects">
+        <div className="projects featured-projects">
             <section className="content_wrapper">
                 <h2>Featured projects</h2>
                 <p>View selected projects below. Complete list of projects can be found at <Link to="projects/">https://www.amandatoop.com/projects/</Link>.</p>
