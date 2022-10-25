@@ -246,38 +246,40 @@ LiVe Free HAppy
   
   /* featured projects */
   
-  .featured-projects{
-    background: #8c99a2;
-  }
-  
-  .projectcard-img{
-    margin-bottom: 10px;
-    height: 250px;
-    object-fit:cover;
-  }
-  
-  .project-card .btn{
-    color:#c2c7cb;
-    background:#101c4d;
-    text-decoration:none;
-    padding: 8px;
-    border-radius:4px;
-    /* required to place inside padding space */
-    display:inline-block; 
-  }
-  
-  .project-card .btn:hover{
-    background: rgba(16,28,77,80%);
-  }
-  
-  .project-card{
-    overflow: hidden;
-  }
-  
-  .project-card h3{
-    /* line up h3 with top of img floated to left */
-    margin-top:0;
-  }
+/* Projects */
+.projects{
+  background: #8C99A2;
+}
+
+.project-item img{
+  margin-bottom: 10px;
+  height: 250px;
+  object-fit:cover;
+}
+.projects a{
+color: #0A1233;
+}
+
+.projects .btn{
+  color:#C2C7CB;
+  background:#101C4D;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block; /* required to place inside padding space*/
+}
+.projects .btn:hover {
+  background: rgba(16,28,77, 80%);
+}
+
+.project-item{
+  overflow: hidden;
+}
+
+.project-item h3{
+  margin-top: 0; /* line up h3 with top of img floated to left*/
+}
+
  
   /* Work Experience */
 .workexperience{
