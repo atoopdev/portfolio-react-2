@@ -65,6 +65,28 @@ html {
     margin: 0 auto; /* centers content wrapper horizontally */
     padding: 60px 0;  /* 60px prev value pushes content in on top and bottom to eliminate gaps between sections */
   }
+
+  h3 {
+    margin-bottom: 0;
+}
+
+/* applies to 1st child p after h3 */
+.item-details h3 + p {
+    font-style: italic;
+}
+
+/* all p after h3 */
+.item-details h3 ~ p{
+    margin: 0;
+}
+
+.divider> section{
+    border-bottom: 1px dashed #2F2504;
+    padding: 25px 0;
+}
+.divider > section:last-of-type{
+    border-bottom: none;
+}
   
   /* About */
 
@@ -162,4 +184,21 @@ html {
 
 .education p{
    width: 60%;
+}
+
+/* Contact Info */
+footer {
+  background: #2F2504;
+  color: #E5BE10;
+}
+.contact-list{
+list-style-type: none;
+padding: 0;
+}
+
+.contact-list a{
+  color:#E5BE10;
+  padding: 15px;
+  display:  inline-block;
+  text-decoration: none;
 }
