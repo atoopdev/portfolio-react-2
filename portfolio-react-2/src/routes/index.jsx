@@ -3,6 +3,7 @@ import About from "../components/about"
 import FeaturedProjects from "../components/featuredprojects"
 import WorkExperience from "../components/workexperience"
 import Education from "../components/education"
+import ContactInfo from "../components/contactinfo"
 
 // functions like main landing page
 
@@ -15,6 +16,7 @@ export default function Index(){
             <FeaturedProjects />
             <WorkExperience />
             <Education />
+            <ContactInfo />
         </div>
     )
 }
