@@ -21,10 +21,11 @@ export default function Root(){
             <ProjectsIntro />
 
         <div className="projects">
-            <section className="content_wrapper">
+            <section className="">
                 <div className="projects-container">
                 <h2>Completed Projects</h2>
-                <div className="projects-list divider">
+                {/* add divider class to below if want dashed lines seperating fields again */}
+                <div className="projects-list">
                 {projectElements}
                 </div>
                 </div>
