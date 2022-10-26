@@ -437,3 +437,16 @@ padding: 0;
       font-size: 40px;
   }
 }
+
+/***************************** Project page *********************************************/
+
+.project-wrapper{
+  max-width: 1200px; 
+  width: 85%; /* applies when viewport < 800px*/
+  margin: 0 auto; /* centers content wrapper horizontally */
+  padding: 60px 0;  /* 60px prev value pushes content in on top and bottom to eliminate gaps between sections */
+}
+
+.project-page-header{
+  margin-bottom: 40px;
+}
