@@ -336,7 +336,7 @@ padding: 0;
   text-decoration: none;
 }
 
-/* Responsive styles */
+/************************* Responsive styles ********************************************/
 
 @media screen and (min-width:1682px){
   /* add a background image */
@@ -466,6 +466,15 @@ padding: 0;
   display: grid;
   gap: 2rem 2rem;
   padding-bottom: 3rem;
+}
+
+.projects h2{
+  padding-top:5px;
+  margin-bottom: 5px;
+}
+
+.projects h3{
+  font-weight: 600;
 }
 
 /* min-width 654px */
