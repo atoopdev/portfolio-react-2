@@ -8,7 +8,7 @@ export default[
         description: "TBD",
         img:"/images/my-travel-journal.jpg",
         link: "/projects/scrimba/travel-journal/index.html",
-        blogLink: "https://dev.to/atoopdev/coding-up-a-react-travel-journal-313h",
+        blogLink: "https://dev.to/atoopdev/coding-up-a-react-travel-journal-3l3h",
         isFeatured: true,
         visible: true,
         keywords: "CSS, JavaScript, React", 
