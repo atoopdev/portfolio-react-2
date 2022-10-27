@@ -3,6 +3,17 @@
 
 export default[
     {
+        id: 14,
+        title: "Travel Journal",
+        description: "TBD",
+        img:"/images/my-travel-journal.jpg",
+        link: "/projects/scrimba/travel-journal/index.html",
+        blogLink: "https://dev.to/atoopdev/coding-up-a-react-travel-journal-313h",
+        isFeatured: true,
+        visible: true,
+        keywords: "CSS, JavaScript, React", 
+    },
+    {
         id: 13,
         title: "Movie Watchlist",
         description: "This app allows a user to search for movies based on title using the OMDB API. The OMDB API returns a list of the top ten movie matches. Users can then add/remove movies from a watchlist that is saved in localStorage.",
