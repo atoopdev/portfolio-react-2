@@ -259,6 +259,11 @@ LiVe Free HAppy
 color: #0A1233;
 }
 
+.projects .project-keywords{
+  /* border: 1px solid green; */
+  display: none;
+}
+
 .projects .btn{
   color:#C2C7CB;
   background:#101C4D;
@@ -280,8 +285,10 @@ color: #0A1233;
   margin-top: 0; /* line up h3 with top of img floated to left*/
 }
 
+
+
  
-  /* Work Experience */
+  /**************************** Work Experience **********************************/
 .workexperience{
   background: #C2C7CB;
   overflow: hidden;
@@ -310,7 +317,8 @@ color: #0A1233;
 }
 
 
-/* Education */
+/******************************** Education ************************************/
+
 .education {
   background-color:#E5BE10;
 }
@@ -319,7 +327,8 @@ color: #0A1233;
    width: 60%;
 }
 
-/* Contact Info */
+/********************************* Contact Info *********************************/
+
 footer {
   background: #2F2504;
   color: #E5BE10;
@@ -466,6 +475,11 @@ padding: 0;
   display: grid;
   gap: 2rem 2rem;
   padding-bottom: 3rem;
+}
+
+.projects-list .project-keywords{
+  display:block;
+  /* border: 1px solid red; */
 }
 
 .projects h2{

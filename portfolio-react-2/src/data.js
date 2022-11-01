@@ -5,7 +5,7 @@ export default[
     {
         id: 14,
         title: "Travel Journal",
-        description: "TBD",
+        description: "This Travel Journal project pulls in a data file of `trips` objects, converts them to an array of objects, and then maps each object to a TripCard() component, which output trip relevant data (title, image, google maps link, and short description) in formatted HTML. The entire project was then styled with CSS.",
         img:"/images/my-travel-journal.jpg",
         link: "/projects/scrimba/travel-journal/index.html",
         blogLink: "https://dev.to/atoopdev/coding-up-a-react-travel-journal-3l3h",
