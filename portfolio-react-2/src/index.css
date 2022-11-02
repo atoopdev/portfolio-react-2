@@ -479,6 +479,7 @@ padding: 0;
 
 .projects-list .project-keywords{
   display:block;
+  font-weight: 600;
   /* border: 1px solid red; */
 }
 

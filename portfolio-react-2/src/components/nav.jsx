@@ -13,6 +13,7 @@ export default function Nav(){
                 <li className="name-logo">Amanda Toop</li>
                 <li ><NavLink to={`/`} className="nav-link">Home</NavLink></li>
                 <li><NavLink to={`Projects/`} className="nav-link">Projects</NavLink></li>
+                <li><a href="https://dev.to/atoopdev" target="_blank" rel="noreferrer noopener" className="nav-link">Blog</a></li>
             </ul>
             {/* end nav links */}
             <a className="close" href="#" aria-label="Close main menu">
