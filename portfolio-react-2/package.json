@@ -1,8 +1,9 @@
 {
   "name": "portfolio-react-2",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
+  "homepage": "https://www.amandatoop.com/dev/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
